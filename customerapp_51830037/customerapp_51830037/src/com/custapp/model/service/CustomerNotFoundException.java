@@ -1,0 +1,11 @@
+package com.custapp.model.service;
+
+public class CustomerNotFoundException  extends RuntimeException{
+	
+	private static final long serialVersionUID = 1L;
+
+	public CustomerNotFoundException(String message){
+		System.out.println("Customer Not found");
+	}
+
+}
